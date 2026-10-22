@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0f0d">
+<title>RexoHost — Hébergement Minecraft</title>
+<style>
+:root{--bg:#090d0b;--panel:#111815;--panel2:#151f1a;--green:#78f36b;--muted:#9ca9a0;--line:#26352b;--white:#f4f8f4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top right,#18301e 0,transparent 38%),var(--bg);color:var(--white);font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1050px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0;border-bottom:1px solid var(--line)}.brand{font-weight:900;letter-spacing:.5px;font-size:1.2rem}.brand b{color:var(--green)}.navlinks{display:flex;gap:18px;align-items:center;font-size:.92rem;color:var(--muted)}.btn{display:inline-block;background:var(--green);color:#081008;font-weight:800;padding:11px 16px;border-radius:10px;border:0;cursor:pointer;font-size:.95rem}.btn.secondary{background:transparent;color:var(--white);border:1px solid var(--line)}.hero{padding:70px 0 48px;display:grid;grid-template-columns:1.3fr .7fr;gap:26px;align-items:center}.eyebrow{color:var(--green);text-transform:uppercase;letter-spacing:2px;font-size:.75rem;font-weight:800}h1{font-size:clamp(2.5rem,7vw,4.8rem);line-height:1.03;letter-spacing:-2px;margin:12px 0 18px}h1 span{color:var(--green)}p{color:var(--muted)}.hero p{max-width:580px;font-size:1.08rem}.hero-card,.card,.dash{background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:18px;padding:22px}.terminal{background:#080c09;border:1px solid #243128;border-radius:12px;padding:16px;font: .9rem/1.9 ui-monospace,monospace;color:#b6c6b8}.dot{display:inline-block;width:8px;height:8px;background:var(--green);border-radius:50%;margin-right:8px}.section{padding:45px 0}.section h2{font-size:clamp(1.7rem,4vw,2.4rem);margin:0 0 10px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card h3{margin:8px 0}.price{font-size:1.6rem;font-weight:900}.tag{display:inline-block;border:1px solid #35563a;color:var(--green);border-radius:99px;padding:3px 9px;font-size:.75rem;font-weight:700}.note{font-size:.86rem;color:#c5d0c7;border-left:3px solid var(--green);padding:10px 13px;background:#101712;border-radius:0 8px 8px 0}.dash-head{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.server{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:15px;border:1px solid var(--line);border-radius:12px;margin-top:12px;background:#0d130f}.server small{display:block;color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:15px}.stat{background:#0a100c;border:1px solid var(--line);border-radius:10px;padding:13px}.stat strong{display:block;font-size:1.2rem}.demo-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.hidden{display:none!important}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.85rem}.pill{color:var(--green);font-size:.78rem;font-weight:800}.muted{color:var(--muted)}@media(max-width:720px){.hero{grid-template-columns:1fr;padding:48px 0 25px}.grid{grid-template-columns:1fr}.navlinks a:not(.btn){display:none}.stats{grid-template-columns:1fr 1fr}h1{letter-spacing:-1px}.hero-card{padding:16px}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="#home">REXO<b>HOST</b></a>
+  <nav class="navlinks"><a href="#offres">Offres</a><a href="#panel">Espace client</a><a class="btn" href="#panel">Tester la démo</a></nav>
+</header>
+<main>
+<section class="wrap hero" id="home">
+  <div>
+    <div class="eyebrow">Minecraft hosting · projet en lancement</div>
+    <h1>Ton monde.<br><span>Ta communauté.</span></h1>
+    <p>Une expérience d’hébergement Minecraft pensée pour les joueurs : claire, moderne et facile à utiliser. RexoHost est actuellement en phase de démonstration.</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:22px"><a class="btn" href="#panel">Ouvrir l’espace démo</a><a class="btn secondary" href="#offres">Découvrir les offres</a></div>
+  </div>
+  <div class="hero-card">
+    <div class="eyebrow">Aperçu du panel</div>
+    <h3>Tout au même endroit.</h3>
+    <div class="terminal"><span class="dot"></span>rexohost / dashboard<br>› serveur : survie-demo<br>› statut : <span style="color:var(--green)">EN LIGNE (SIMULÉ)</span><br>› mémoire : 2 Go / 4 Go<br>› console : prête pour la démo</div>
+    <p style="font-size:.83rem">Aperçu fictif — aucun serveur de jeu réel n’est connecté.</p>
+  </div>
+</section>
+<section class="wrap section" id="offres">
+  <div class="eyebrow">Offres de démonstration</div><h2>Simple. Transparent. Évolutif.</h2>
+  <p>Ces cartes servent à tester la présentation. Ce ne sont pas des offres disponibles à l’achat.</p>
+  <div class="grid">
+    <article class="card"><span class="tag">DÉMO</span><h3>Starter</h3><div class="price">0 € <small class="muted">/ démo</small></div><p>Pour tester l’interface et découvrir le projet.</p><ul class="muted"><li>Serveur fictif</li><li>Statut simulé</li><li>Aucune connexion réelle</li></ul><a class="btn secondary" href="#panel">Tester</a></article>
+    <article class="card"><span class="tag">DÉMO</span><h3>Survie</h3><div class="price">—</div><p>Une présentation pour un futur serveur Minecraft.</p><ul class="muted"><li>Exemple de configuration</li><li>Panel de démonstration</li><li>Pas de commande</li></ul><a class="btn secondary" href="#panel">Voir le panel</a></article>
+    <article class="card"><span class="tag">BIENTÔT</span><h3>Communauté</h3><div class="price">—</div><p>Une future offre à définir lorsque l’infrastructure sera prête.</p><ul class="muted"><li>Tarif à définir</li><li>Infrastructure à prévoir</li><li>Pas encore disponible</li></ul><a class="btn secondary" href="#panel">Voir la démo</a></article>
+  </div>
+</section>
+<section class="wrap section" id="panel">
+  <div class="eyebrow">Espace client</div><h2>Panel RexoHost</h2>
+  <p>Tu peux cliquer sur les commandes pour voir l’interface réagir. Tout est simulé dans ton navigateur.</p>
+  <div class="dash">
+    <div class="dash-head"><div><span class="pill">● MODE DÉMONSTRATION</span><h3 style="margin:5px 0">Bienvenue, joueur</h3><span class="muted">Compte de test · aucune authentification</span></div><button class="btn secondary" id="refresh">Actualiser la démo</button></div>
+    <div class="server"><div><strong>Survie-Rexo-Demo</strong><small>Java Edition · 1.21.x (exemple)</small></div><span class="tag" id="status">EN LIGNE (SIMULÉ)</span></div>
+    <div class="stats"><div class="stat"><span class="muted">Mémoire RAM</span><strong>2 / 4 Go</strong><small class="muted">Valeur fictive</small></div><div class="stat"><span class="muted">Joueurs</span><strong id="players">3 / 20</strong><small class="muted">Valeur fictive</small></div><div class="stat"><span class="muted">Stockage</span><strong>6 / 20 Go</strong><small class="muted">Valeur fictive</small></div></div>
+    <div class="demo-actions"><button class="btn" id="start">Démarrer</button><button class="btn secondary" id="restart">Redémarrer</button><button class="btn secondary" id="stop">Arrêter</button><button class="btn secondary" id="console">Afficher la console</button></div>
+    <div class="terminal hidden" id="consoleBox" style="margin-top:14px">[Démo] Panel RexoHost initialisé.<br>[Démo] Aucune commande n’est envoyée à un serveur réel.</div>
+    <p class="note" id="message" aria-live="polite">Les boutons modifient uniquement cette page de démonstration. Ne saisis aucun mot de passe réel.</p>
+  </div>
+</section>
+<section class="wrap section">
+  <div class="card"><div class="eyebrow">Étape suivante</div><h2>Construisons RexoHost progressivement.</h2><p>Version 1 : site et panel fictif. Version 2 : authentification réelle. Version 3 : infrastructure de serveurs et panel de gestion — seulement après avoir trouvé un serveur adapté.</p><a class="btn" href="https://github.com/" target="_blank" rel="noopener">Préparer la publication</a></div>
+</section>
+</main>
+<footer><div class="wrap">© RexoHost — projet en développement. Les offres, métriques et statuts affichés dans le panel sont fictifs. Aucun service d’hébergement n’est vendu par cette démonstration.</div></footer>
+<script>
+const statusEl=document.getElementById('status'),msg=document.getElementById('message'),box=document.getElementById('consoleBox');
+function action(text,status){msg.textContent=text;if(status)statusEl.textContent=status;}
+document.getElementById('start').onclick=()=>action('Démo : le serveur serait démarré si une vraie infrastructure était connectée.','DÉMARRAGE SIMULÉ');
+document.getElementById('restart').onclick=()=>action('Démo : demande de redémarrage simulée. Aucun serveur réel n’a été redémarré.','REDÉMARRAGE SIMULÉ');
+document.getElementById('stop').onclick=()=>action('Démo : le serveur serait arrêté si une vraie infrastructure était connectée.','ARRÊT SIMULÉ');
+document.getElementById('console').onclick=()=>{box.classList.toggle('hidden');action('La console de démonstration a été '+(box.classList.contains('hidden')?'masquée.':'affichée.'));};
+document.getElementById('refresh').onclick=()=>{document.getElementById('players').textContent='3 / 20';statusEl.textContent='EN LIGNE (SIMULÉ)';box.classList.add('hidden');action('Données de démonstration réinitialisées. Elles ne viennent pas d’un vrai serveur.');};
+</script>
+</body>
+</html>
